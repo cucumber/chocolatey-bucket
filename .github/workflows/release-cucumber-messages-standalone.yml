@@ -3,25 +3,28 @@ name: Push-cucumber-messages-standalone
 on:
   push:
     tags:
-      - '*'
+      - 'v*'
     branches-ignore:
       - '**'
 
 jobs:
   push:
+    environment: Release
     runs-on: windows-latest
     
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
       
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
         with:
           dotnet-version: '5.0.x'
 
       - name: Find package
         shell: bash
         run: |
-          echo "PACKAGE_NAME=$(ls cucumber-messages/*.nuspec)" >> $GITHUB_ENV
+          echo "PACKAGE_NAME=$(ls cucumber-messages-standalone/*.nuspec)" >> $GITHUB_ENV
 
       - name: Pack
         shell: powershell
