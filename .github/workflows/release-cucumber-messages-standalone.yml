@@ -7,6 +7,8 @@ on:
     branches-ignore:
       - '**'
 
+permissions: {}
+
 jobs:
   push:
     environment: Release
@@ -29,7 +31,7 @@ jobs:
       - name: Pack
         shell: powershell
         run: |
-          choco pack ${{ env.PACKAGE_NAME }}
+          choco pack ${env:PACKAGE_NAME}
 
       - name: Publish
         shell: powershell
