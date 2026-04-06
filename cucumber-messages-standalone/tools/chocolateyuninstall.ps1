@@ -1,7 +1,7 @@
-# Generated with JReleaser 1.23.0 at 2026-04-06T00:30:33.173990489Z
+# Generated with JReleaser 1.23.0 at 2026-04-06T01:05:53.970181647Z
 $tools = Split-Path $MyInvocation.MyCommand.Definition
 $package = Split-Path $tools
-$app_home = Join-Path $package 'cucumber-messages-standalone-0.3.3-windows-x86_64'
+$app_home = Join-Path $package 'cucumber-messages-standalone-0.3.4-windows-x86_64'
 $app_exe = Join-Path $app_home 'bin/cucumber-messages.bat'
 
 Uninstall-BinFile -Name 'cucumber-messages' -Path $app_exe
