@@ -1,4 +1,4 @@
-name: Push-cucumber-messages-standalone
+name: Push cucumber-messages (manual)
 
 on:
   workflow_dispatch:
