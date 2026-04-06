@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.23.0 at 2026-04-06T00:30:04.792534656Z -->
+<!-- Generated with JReleaser 1.23.0 at 2026-04-06T00:30:33.173990489Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>cucumber-messages</id>
-    <version>0.3.2</version>
+    <version>0.3.3</version>
     <authors>M.P. Korstanje</authors>
     <description>Cucumber can output test results in newline delimited json format. This
 format can then be transformed into different reports. 
@@ -17,7 +17,7 @@ html, junit-xml and testng-xml reports.
     <title>Cucumber Messages CLI</title>
     <projectUrl>https://cucumber.io</projectUrl>
     <copyright>2025 M.P. Korstanje</copyright>
-    <licenseUrl>https://github.com/cucumber/messages-cli/blob/release/v0.3.2/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/cucumber/messages-cli/blob/release/v0.3.3/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>cucumber messages cli</tags>
     <summary>A commandline interface to work with Cucumber Messages</summary>
@@ -25,7 +25,7 @@ html, junit-xml and testng-xml reports.
     <packageSourceUrl>https://github.com/cucumber/chocolatey-bucket</packageSourceUrl>
     <docsUrl>https://cucumber.io</docsUrl>
     <bugTrackerUrl>https://github.com/cucumber/messages-cli</bugTrackerUrl>
-    <releaseNotes>https://github.com/cucumber/messages-cli/releases/tag/v0.3.2</releaseNotes>
+    <releaseNotes>https://github.com/cucumber/messages-cli/releases/tag/v0.3.3</releaseNotes>
     
   </metadata>
   <files>
